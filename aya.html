@@ -5,7 +5,7 @@
             var playa = new Audio();
             var mp3ok = !!playa.canPlayType && playa.canPlayType('audio/mpeg') != '';
             var oggok = !!playa.canPlayType && playa.canPlayType('audio/ogg; codecs="vorbis') != '';
-            cool = new Audio('npb.' + (mp3ok?'mp3':'ogg'));
+            cool = new Audio('cool.' + (mp3ok?'mp3':'ogg'));
             cool.loop = true;
             cool.play();
         </script>
