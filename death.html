@@ -25,14 +25,17 @@ have a <i>moving</i> image of <strong>burgie?!</strong>
 <br>
 get ready for the ultimate performance by yours truly, not me
 <br>
-<marquee behavior=scroll direction=right scrollamount=80><img src="https://images.discordapp.net/.eJwNxEEOhCAMAMC_8ACaFhHxM4ZgRRIRQ-tps3_fncN8zDsus5pT9ZEVYK-S-9itaB-psC29l4vTU8Xm3iCppnw2vlWAJnIY0DuKFEL0hED_Y3QzoZ8Xt0SaoLaiI91y8FAW3RBtqYf5_gCi8Sbt.Phdd1VjBtrvZ05fLE_TZkdZYa2c" title="no touch"></marquee>
+<p id="koloktotesII"><marquee behavior=scroll direction=right scrollamount=80><input type="image" src="foot1.gif" onclick="koloktosII()"/></marquee>
 <marquee behavior=alternate scrolldelay=1000>snail snail</marquee>
 <div>
-<p id="koloktotes"><input type="image" src="death.png" onclick="koloktos()"/>
+<p id="koloktotes"><marquee behavior=scroll direction=right><input type="image" src="death.png" onclick="koloktos()"/></marquee>
 </div>
 <script>
 function koloktos() {
 	document.getElementById("koloktotes").innerHTML = "<marquee behavior=slide scrollamount=90>who rang?</marquee>";
+}
+function koloktosII() {
+	document.getElementById("koloktotesII").innerHTML = "<p id='koloktotesIII'><marquee direction=left scrollamount=80><img src='foot2.gif'/></marquee>"
 }
 </script>
 </html>
