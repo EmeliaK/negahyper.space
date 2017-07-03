@@ -1,0 +1,11 @@
+.b {
+	float: left;
+	padding: 5px;
+  margin-left: 10px;
+  border: 1px solid black;
+  font-size: 30px;
+}
+
+.b:hover {
+	background-color: cyan;
+}
